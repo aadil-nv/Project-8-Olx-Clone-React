@@ -1,0 +1,169 @@
+.moreView {
+  margin: 16px 16px 24px;
+  padding: 16px 16px 32px;
+  background-color: #ebeeef;
+  border-radius: 4px;
+}
+
+.heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+.heading :first-child {
+  font-size: 24px;
+  color: #002f34;
+}
+
+.heading :last-child {
+  font-size: 14px;
+  color: #002f34;
+}
+
+.recommendations .cards {
+  display: flex;
+}
+
+.moreView .cards {
+  white-space: nowrap;
+  overflow-x: scroll;
+  overflow-y: hidden;
+}
+
+.card {
+  margin-right: 15px;
+  padding: 13px;
+  max-width: 222px;
+  width: 222px;
+  height: 270px;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.card .favorite {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.card .image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card .image img {
+  height: 100px;
+  max-width: 100%;
+  max-height: 100%;
+  min-height: 100%;
+  text-align: center;
+}
+.card .content .rate {
+  margin-top: 10px;
+  font-size: larger;
+  font-weight: bold;
+}
+.card .content .kilometer {
+  font-size: medium;
+}
+.card .content .name {
+  font-size: small;
+}
+.card .date {
+  display: flex;
+  justify-content: flex-end;
+  font-size: small;
+}
+
+.recommendations {
+  margin: 16px 16px 24px;
+}
+
+.recommendations .heading span {
+  font-size: 24px;
+  color: #002f34;
+}
+
+.postParentDiv {
+  padding: 20px;
+  background-color: #f9f9f9;
+}
+
+.moreView .heading {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  font-family: 'Arial', sans-serif;
+  font-size: 24px;
+  color: #333;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 20px;
+}
+
+.card {
+  position: relative;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.favorite {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: rgba(255, 255, 255, 0.8);
+  padding: 5px;
+  border-radius: 50%;
+}
+
+.image img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-bottom: 1px solid #eee;
+}
+
+.content {
+  padding: 15px;
+  font-family: 'Arial', sans-serif;
+}
+
+.rate {
+  font-size: 20px;
+  font-weight: bold;
+  color: #2a9d8f;
+  margin-bottom: 10px;
+}
+
+.kilometer {
+  font-size: 14px;
+  color: #757575;
+  margin-bottom: 5px;
+}
+
+.name {
+  font-size: 16px;
+  font-weight: 500;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.date {
+  font-size: 12px;
+  color: #999;
+  margin-top: 10px;
+}
+

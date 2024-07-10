@@ -1,0 +1,63 @@
+.loginParentDiv {
+  border: 1px solid #ccc;
+  width: 90%;
+  max-width: 400px;
+  padding: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 8px;
+  background-color: #f0f0f0;
+  text-align: center;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+  width: 100px;
+  height: 100px;
+  margin-bottom: 20px;
+}
+
+.input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.error-message {
+  color: red;
+  margin-top: 5px;
+  text-align: left;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  background-color: #002f34;
+  color: whitesmoke;
+  font-weight: bold;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #004d53;
+}
+
+.signupButton {
+  margin-top: 10px;
+  background-color: transparent;
+  color: #002f34;
+  border: 1px solid #002f34;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.signupButton:hover {
+  background-color: #002f34;
+  color: whitesmoke;
+}
